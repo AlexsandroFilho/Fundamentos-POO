@@ -13,5 +13,10 @@ namespace poo.models
         }
 
         public decimal Salario { get; set; }
+
+        public override void Apresentar()
+        {
+            Console.WriteLine($"Ola, sou o Professor {Nome}, e o meu salario é {Salario}");
+        }
     }
 }

@@ -15,4 +15,7 @@ conta.VerSaldo(); */
 Aluno aluno1 = new Aluno("Alex", 22, 9.0);
 aluno1.Apresentar();
 Console.WriteLine();
-aluno1.ExibirNota();
+
+//Polimorfismo
+Professor prof1 = new Professor("Danilo", 30, 2000);
+prof1.Apresentar();

@@ -15,9 +15,10 @@ namespace poo.models
 
         public double Nota { get; set; }
 
-        public void ExibirNota()
+        //a palavra "override" indica que eu estou modificando o metodo da outra classe, para aplicar polimorfismo
+        public override void Apresentar()
         {
-            Console.WriteLine($"Nota: {Nota}, do Aluno: {Nome}");
+            Console.WriteLine($"Ola, eu sou o Aluno {Nome}, e a minha note é {Nota}");
         }
     }
 }
