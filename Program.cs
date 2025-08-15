@@ -12,10 +12,15 @@ conta.VerSaldo(); */
 
 //Herança
 
-Aluno aluno1 = new Aluno("Alex", 22, 9.0);
+/* Aluno aluno1 = new Aluno("Alex", 22, 9.0);
 aluno1.Apresentar();
 Console.WriteLine();
 
 //Polimorfismo
 Professor prof1 = new Professor("Danilo", 30, 2000);
-prof1.Apresentar();
+prof1.Apresentar(); */
+
+//Classes abstratas e interfaces
+Corrente conta = new Corrente();
+conta.Creditar(700);
+conta.ExibirSaldo();
