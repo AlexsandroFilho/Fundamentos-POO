@@ -13,8 +13,9 @@ namespace poo.models
         }
 
         public decimal Salario { get; set; }
-
-        public override void Apresentar()
+        
+        //Selando o metodo para que a Classe filha não possa usar (com o intuito de teste)
+        public sealed override void Apresentar()
         {
             Console.WriteLine($"Ola, sou o Professor {Nome}, e o meu salario é {Salario}");
         }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dio1\\poo\\poo.csproj": {}
+    "/home/alex/Dio/Fundamentos-POO/poo.csproj": {}
   },
   "projects": {
-    "C:\\Dio1\\poo\\poo.csproj": {
+    "/home/alex/Dio/Fundamentos-POO/poo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dio1\\poo\\poo.csproj",
+        "projectUniqueName": "/home/alex/Dio/Fundamentos-POO/poo.csproj",
         "projectName": "poo",
-        "projectPath": "C:\\Dio1\\poo\\poo.csproj",
-        "packagesPath": "C:\\Users\\alexo\\.nuget\\packages\\",
-        "outputPath": "C:\\Dio1\\poo\\obj\\",
+        "projectPath": "/home/alex/Dio/Fundamentos-POO/poo.csproj",
+        "packagesPath": "/home/alex/.nuget/packages/",
+        "outputPath": "/home/alex/Dio/Fundamentos-POO/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alexo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/alex/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

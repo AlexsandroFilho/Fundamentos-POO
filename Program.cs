@@ -1,4 +1,6 @@
-﻿using poo.models;
+﻿using poo.Interfaces;
+using poo.models;
+using POO.models;
 
 /* Pessoa p1 = new Pessoa("Alex", 22);
 p1.Apresentar();
@@ -20,7 +22,12 @@ Console.WriteLine();
 Professor prof1 = new Professor("Danilo", 30, 2000);
 prof1.Apresentar(); */
 
-//Classes abstratas e interfaces
-Corrente conta = new Corrente();
+//Classes abstratas e interfaces - Classe que é apenas modelo para outras fazerem herança
+/* Corrente conta = new Corrente();
 conta.Creditar(700);
 conta.ExibirSaldo();
+ */
+
+//Interface
+ICalculadora calc = new Calculadora();
+Console.Write(calc.Somar(11, 4));
